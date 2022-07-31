@@ -80,7 +80,7 @@ export default function Main(props) {
             type="SIGNED-TX"
             setStatus={setStatus}
             attrs={{
-              palletRpc: 'balances',
+              palletRpc: 'risk factor',
               callable: 'transfer',
               inputParams: [addressTo, amount],
               paramFields: [true, true],
