@@ -68,7 +68,7 @@ export default function Main(props) {
         <Form.Field>
           <Input
             fluid
-            label="Amount"
+            label="Risk Factor"
             type="number"
             state="amount"
             onChange={onChange}
